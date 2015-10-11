@@ -40,8 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogicValidations.cs" />
     <Compile Include="GLManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccountingApp.Data\AccountingApp.Data.csproj">
+      <Project>{def5c1ed-3572-49f3-a654-8256d4a9654c}</Project>
+      <Name>AccountingApp.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AccountingApp.Model\AccountingApp.Model.csproj">
+      <Project>{e7ef788d-fb34-4e07-9db7-0824b57670e7}</Project>
+      <Name>AccountingApp.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

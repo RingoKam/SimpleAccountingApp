@@ -1,0 +1,34 @@
+﻿@model AccountingApp.UI.Models.NewEntryView
+
+@{
+    ViewBag.Title = "NewEntry";
+}
+<div class="container">
+    <div class="row">
+        <h3 class="col-xs-2">Journal Entry</h3>
+    </div>
+    <br />
+    @using (Html.BeginForm(FormMethod.Post))
+    {
+        <div class="row">
+            <Label class="col-xs-3 col-xs-offset-5">Date @Html.EditorFor(a => Model.TransactDateTime) </Label>
+            <Label class="col-xs-4">Reference @Html.EditorFor(a => Model.newEntry.Reference) </Label>
+        </div>
+        <br />
+        <br />
+        for (int i = 0; i < @Model.TransactionNumber; i++)
+        {
+            <table></table>
+            <div class="row">
+                @*<span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].AccountName, new { @placeholder = "AccountName" })</span>*@
+                <span> @Html.DropDownListFor(a=> a.newEntry.TransactionList[i].Account,Model.AccountSelect)</span>
+                <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].TransactionDescription, new { @placeholder = "Description" })</span>
+                <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].Account, new { @placeholder = "Account" })</span>
+                <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].Amount, new { @placeholder = "$--" })</span>
+            </div>
+            <br/>
+        }
+        <hr />
+        <button class="btn-group-sm">Submit</button>
+    }
+</div>

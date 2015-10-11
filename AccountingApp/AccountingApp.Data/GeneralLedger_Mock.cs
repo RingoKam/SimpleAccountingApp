@@ -22,9 +22,13 @@ namespace AccountingApp.Data
                 }
             }
             return list; 
-        }  
+        }
 
         //Delete
+        public void RemoveEntry(Entry entry)
+        {
+            //TODO: implement remove 
+        }
 
         //Create 
         public void CreateEntry(Entry entry)
