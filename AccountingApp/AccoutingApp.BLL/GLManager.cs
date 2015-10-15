@@ -10,10 +10,12 @@ namespace AccoutingApp.BLL
     //CRUD 
     public class GLManager 
     {
+        //TODO: dependency injection here 
+        //public static mger = new GeneralLedger_Mock();
+
         //Add, Add a journal entry that will now be stored in DB 
         public Response<Entry> CreateJournal(Entry newEntry)
         {
-            //TODO: dependency injection here 
             var mger = new GeneralLedger_Mock();
 
             var response = new Response<Entry>();
@@ -37,7 +39,7 @@ namespace AccoutingApp.BLL
         } 
 
         //Read
-        public Response<List<Entry>> getEntry(DateTime start, DateTime end)
+        public Response<List<Entry>> GetEntry(DateTime start, DateTime end)
         {
             var mger = new GeneralLedger_Mock();
             var response = new Response<List<Entry>>();

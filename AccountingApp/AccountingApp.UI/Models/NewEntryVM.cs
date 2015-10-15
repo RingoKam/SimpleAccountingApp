@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace AccountingApp.UI.Models
 {
-    public class NewEntryView
+    public class NewEntryVM
     {
         public SelectList AccountSelect;
         public SelectList AccountNameSelect; 

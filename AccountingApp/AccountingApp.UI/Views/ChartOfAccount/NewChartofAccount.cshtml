@@ -1,0 +1,21 @@
+﻿@using System.Web.UI.WebControls
+@model AccountingApp.UI.Models.NewChartofAccountVM
+
+@{
+    ViewBag.Title = "NewChartofAccount";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>NewChartofAccount</h2>
+
+@using (Html.BeginForm("NewChartofAccount", "ChartOfAccount", FormMethod.Post))
+{
+    <div class="form-group">
+        <label> Name </label>
+        @Html.TextBoxFor(m => m.NewAcccount.AccountName, new {@class = "form-control"})
+        <label> Account Type </label>
+        @Html.DropDownListFor(m => m.NewAcccount.AccountType, Model.AccountTypeSelection, new {@class = "dropdown"})
+    </div>
+
+    <button> Submit </button>
+}

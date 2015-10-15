@@ -15,7 +15,7 @@ namespace AccountingApp.UI.Controllers
         public ActionResult NewEntry()
         {
             var mger = new GLManager();
-            var viewModel = new NewEntryView();
+            var viewModel = new NewEntryVM();
             //TODO: Insert AccountName to viewModel 
             var accountTypeSelectList= Enum.GetValues(typeof (AccountType)).Cast<AccountType>().ToList();  
             viewModel.AccountSelect = new SelectList(accountTypeSelectList);
@@ -23,7 +23,7 @@ namespace AccountingApp.UI.Controllers
         }
 
         [HttpPost]
-        public ActionResult NewEntry(NewEntryView viewModel)
+        public ActionResult NewEntry(NewEntryVM viewModel)
         {
             var mger = new GLManager();
 

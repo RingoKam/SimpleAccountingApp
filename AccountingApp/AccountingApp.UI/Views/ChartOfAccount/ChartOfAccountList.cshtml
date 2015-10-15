@@ -1,0 +1,27 @@
+﻿@model List<AccountingApp.Model.ChartofAccount.Account>
+
+@{
+    ViewBag.Title = "ChartOfAccountList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ChartOfAccountList</h2>
+
+<table>
+    <tr>
+        <th>Account Name</th>
+        <th>Category</th>
+    </tr>
+
+@if(Model != null)
+{
+    foreach (var m in @Model)
+    {
+        <tr>
+            <td> @m.AccountName </td>
+            <td> @m.AccountType </td> 
+            <td> <button> @Html.ActionLink("EDIT","","ChartOfAccount", new {}, null)</button></td>
+        </tr>
+    }
+}
+</table>

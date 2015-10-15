@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Linq;
 using AccountingApp.Model.GeneralLedgerType;
+using AccountingApp.Model.Interface;
 
 namespace AccountingApp.Data
 {
-    public class GeneralLedger_Mock
+    public class GeneralLedger_Mock: IGeneralLedger
     {
         private static List<Entry> theLedger;
 

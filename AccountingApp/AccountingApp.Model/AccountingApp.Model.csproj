@@ -42,14 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChartofAccount\Account.cs" />
     <Compile Include="Enum\AccountType.cs" />
     <Compile Include="Enum\DebitCredit.cs" />
     <Compile Include="Enum\Vendor_Customer.cs" />
     <Compile Include="GeneralLedgerType\Entry.cs" />
     <Compile Include="GeneralLedgerType\Transaction.cs" />
+    <Compile Include="Interface\IChartOfAccount.cs" />
+    <Compile Include="Interface\IGeneralLedger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Response.cs" />
-    <Compile Include="AccountName\AccountNameDetail.cs" />
+    <Compile Include="CustomerVendor\CustomerVendor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
