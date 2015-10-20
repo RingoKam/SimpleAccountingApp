@@ -8,7 +8,7 @@ namespace AccountingApp.Data
 {
     public class ChartOfAccount_Mock: IChartOfAccount
     {
-        private static List<Account> chartofAccount;
+        private static List<Account> chartofAccount = new List<Account>();
 
         public List<Account> LoadAccount()
         {

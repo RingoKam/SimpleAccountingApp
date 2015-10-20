@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<ul>
+    <li> <button> <a href=@Url.Action("ChartOfAccountList","ChartOfAccount")> View Chart of Account </a></button></li>
+    <li> <button> <a href=@Url.Action("NewEntry","JournalEntry")> Make Journal Entry </a></button></li>
+    <li> <button> <a href=@Url.Action("","")> View Report </a></button></li>
+</ul>

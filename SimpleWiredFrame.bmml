@@ -26,129 +26,129 @@
         <text>Description</text>
       </controlProperties>
     </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::ComboBox" x="50" y="194" w="79" h="-1" measuredW="79" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Account</text>
-      </controlProperties>
-    </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::ComboBox" x="50" y="227" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Account</text>
-      </controlProperties>
-    </control>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="160" y="345" w="192" h="27" measuredW="48" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="160" y="345" w="192" h="27" measuredW="48" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Post</text>
       </controlProperties>
     </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::DateChooser" x="50" y="131" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="9" locked="false" isInGroup="-1"/>
-    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextInput" x="320" y="193" w="65" h="-1" measuredW="79" measuredH="26" zOrder="10" locked="false" isInGroup="-1"/>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextInput" x="320" y="226" w="65" h="-1" measuredW="79" measuredH="26" zOrder="11" locked="false" isInGroup="-1"/>
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextInput" x="393" y="193" w="65" h="-1" measuredW="79" measuredH="26" zOrder="12" locked="false" isInGroup="-1"/>
-    <control controlID="15" controlTypeID="com.balsamiq.mockups::TextInput" x="393" y="226" w="65" h="-1" measuredW="79" measuredH="26" zOrder="13" locked="false" isInGroup="-1"/>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::SubTitle" x="333" y="166" w="-1" h="-1" measuredW="39" measuredH="19" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::DateChooser" x="50" y="131" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextInput" x="320" y="193" w="65" h="-1" measuredW="79" measuredH="26" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextInput" x="320" y="226" w="65" h="-1" measuredW="79" measuredH="26" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextInput" x="393" y="193" w="65" h="-1" measuredW="79" measuredH="26" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::TextInput" x="393" y="226" w="65" h="-1" measuredW="79" measuredH="26" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::SubTitle" x="333" y="166" w="-1" h="-1" measuredW="39" measuredH="19" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <size>16</size>
         <text>Debit</text>
       </controlProperties>
     </control>
-    <control controlID="17" controlTypeID="com.balsamiq.mockups::SubTitle" x="403" y="166" w="-1" h="-1" measuredW="45" measuredH="19" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::SubTitle" x="403" y="166" w="-1" h="-1" measuredW="45" measuredH="19" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <size>16</size>
         <text>Credit</text>
       </controlProperties>
     </control>
-    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextInput" x="320" y="268" w="65" h="-1" measuredW="43" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextInput" x="320" y="268" w="65" h="-1" measuredW="43" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Total</text>
       </controlProperties>
     </control>
-    <control controlID="20" controlTypeID="com.balsamiq.mockups::TextInput" x="393" y="268" w="65" h="-1" measuredW="43" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::TextInput" x="393" y="268" w="65" h="-1" measuredW="43" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Total</text>
       </controlProperties>
     </control>
-    <control controlID="21" controlTypeID="com.balsamiq.mockups::HRule" x="45" y="253" w="421" h="-1" measuredW="100" measuredH="10" zOrder="18" locked="false" isInGroup="-1"/>
-    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="50" y="268" w="-1" h="-1" measuredW="74" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::HRule" x="45" y="253" w="421" h="-1" measuredW="100" measuredH="10" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="50" y="268" w="-1" h="-1" measuredW="74" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Add%20Line</text>
       </controlProperties>
     </control>
-    <control controlID="23" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="502" y="14" w="450" h="400" measuredW="450" measuredH="400" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="502" y="14" w="450" h="400" measuredW="450" measuredH="400" zOrder="18" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
         <text>Chart%20of%20Accounts</text>
       </controlProperties>
     </control>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::DataGrid" x="511" y="130" w="415" h="245" measuredW="305" measuredH="201" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::DataGrid" x="511" y="130" w="415" h="245" measuredW="305" measuredH="201" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
         <hLines>true</hLines>
         <text>Account%20Name%20%5E%2C%20Type%20%5E%2C%20Balance%20%5E%0ACash%2C%20Current%20Assets%2C%20%241000%0AInventory%2C%20Current%20Assets%2C%20%2415000%0AAccount%20Receivable%2C%20Current%20Assets%2C%20%242000%0AMachine%2C%20Fixed%20Assets%2C%20%244000%0ABuilding%2C%20Fixed%20Assets%2C%20%24100000%0A%20Security%20Deposit%2C%20Other%20Assets%2C%20%245000</text>
       </controlProperties>
     </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="928" y="130" w="-1" h="245" measuredW="16" measuredH="100" zOrder="22" locked="false" isInGroup="-1"/>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::ButtonBar" x="511" y="95" w="426" h="27" measuredW="351" measuredH="27" zOrder="23" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="928" y="130" w="-1" h="245" measuredW="16" measuredH="100" zOrder="20" locked="false" isInGroup="-1"/>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::ButtonBar" x="511" y="95" w="426" h="27" measuredW="351" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <selectedIndex>0</selectedIndex>
         <text>Asset%2C%20Liability%2C%20Equity%2C%20Revenue%2C%20Expense</text>
       </controlProperties>
     </control>
-    <control controlID="32" controlTypeID="com.balsamiq.mockups::ComboBox" x="132" y="194" w="63" h="-1" measuredW="65" measuredH="24" zOrder="24" locked="false" isInGroup="-1">
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::ComboBox" x="108" y="194" w="87" h="-1" measuredW="92" measuredH="24" zOrder="22" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Name</text>
+        <text>AcctName</text>
       </controlProperties>
     </control>
-    <control controlID="33" controlTypeID="com.balsamiq.mockups::ComboBox" x="132" y="227" w="63" h="-1" measuredW="65" measuredH="24" zOrder="25" locked="false" isInGroup="-1">
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::ComboBox" x="108" y="227" w="87" h="-1" measuredW="92" measuredH="24" zOrder="23" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Name</text>
+        <text>AcctName</text>
       </controlProperties>
     </control>
-    <control controlID="34" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="967" y="14" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="26" locked="false" isInGroup="-1">
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="967" y="14" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
         <text>New%20Account</text>
       </controlProperties>
     </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::ComboBox" x="982" y="190" w="195" h="-1" measuredW="198" measuredH="24" zOrder="27" locked="false" isInGroup="-1">
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::ComboBox" x="982" y="190" w="195" h="-1" measuredW="198" measuredH="24" zOrder="25" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Asset%20Liability%20Equity%2C%20Profit...</text>
       </controlProperties>
     </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::Title" x="1089" y="106" w="-1" h="-1" measuredW="115" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Title" x="1089" y="106" w="-1" h="-1" measuredW="115" measuredH="21" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <size>18</size>
         <text>AccountName</text>
       </controlProperties>
     </control>
-    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextInput" x="1089" y="130" w="115" h="-1" measuredW="113" measuredH="27" zOrder="29" locked="false" isInGroup="-1">
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextInput" x="1089" y="130" w="115" h="-1" measuredW="113" measuredH="27" zOrder="27" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Name%20Goes%20here</text>
       </controlProperties>
     </control>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::Title" x="982" y="165" w="-1" h="-1" measuredW="107" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Title" x="982" y="165" w="-1" h="-1" measuredW="107" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <size>18</size>
         <text>AccountType</text>
       </controlProperties>
     </control>
-    <control controlID="41" controlTypeID="com.balsamiq.mockups::Title" x="982" y="106" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Title" x="982" y="106" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <size>18</size>
         <text>Account%23</text>
       </controlProperties>
     </control>
-    <control controlID="42" controlTypeID="com.balsamiq.mockups::TextInput" x="986" y="130" w="70" h="-1" measuredW="64" measuredH="27" zOrder="32" locked="false" isInGroup="-1">
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::TextInput" x="986" y="130" w="70" h="-1" measuredW="64" measuredH="27" zOrder="30" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Optional</text>
       </controlProperties>
     </control>
-    <control controlID="43" controlTypeID="com.balsamiq.mockups::Button" x="982" y="277" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="33" locked="false" isInGroup="-1">
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Button" x="982" y="277" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="31" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Submit</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::TextInput" x="40" y="193" w="65" h="-1" measuredW="63" measuredH="27" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Chart%20of</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::TextInput" x="40" y="223" w="65" h="-1" measuredW="63" measuredH="27" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Account</text>
       </controlProperties>
     </control>
   </controls>

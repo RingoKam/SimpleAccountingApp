@@ -19,8 +19,8 @@
     {
         <tr>
             <td> @m.AccountName </td>
-            <td> @m.AccountType </td> 
-            <td> <button> @Html.ActionLink("EDIT","","ChartOfAccount", new {}, null)</button></td>
+            <td> @m.AccountType </td>
+            <td> <button> @Html.ActionLink("EDIT", "EditChartofAccount", "ChartOfAccount", new {AccountID = m.AccountID}, null)</button></td>
         </tr>
     }
 }

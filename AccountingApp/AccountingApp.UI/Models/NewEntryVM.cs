@@ -8,11 +8,15 @@ namespace AccountingApp.UI.Models
 {
     public class NewEntryVM
     {
-        public SelectList AccountSelect;
-        public SelectList AccountNameSelect; 
-        public Entry newEntry { get; set; }
         [DataType(DataType.Date)]
         public DateTime TransactDateTime { get; set; }
+
+        //the chart of account selected 
+        public SelectList AccountNameSelect;
+
+        //the the actual transaction
+        public Entry newEntry { get; set; }
+
         //default transaction number 
         public int TransactionNumber = 2; 
     }

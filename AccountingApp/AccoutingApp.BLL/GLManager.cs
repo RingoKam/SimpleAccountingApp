@@ -70,7 +70,7 @@ namespace AccoutingApp.BLL
         public void RemoveEntry(Entry deleteEntry)
         {
             var mger = new GeneralLedger_Mock();
-            //TODO: implement remove 
+            mger.RemoveEntry(deleteEntry);
         }
     }
 }

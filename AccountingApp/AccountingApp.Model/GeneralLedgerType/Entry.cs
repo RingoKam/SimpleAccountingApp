@@ -8,6 +8,6 @@ namespace AccountingApp.Model.GeneralLedgerType
     {
         public DateTime TransactionDateTime { get; set; }
         public int Reference { get; set; }
-        public List<Transaction> TransactionList { get; set; }    
+        public List<Transaction> TransactionList { get; set; }
     }
 }

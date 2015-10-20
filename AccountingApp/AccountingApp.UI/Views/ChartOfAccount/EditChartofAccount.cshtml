@@ -1,0 +1,19 @@
+﻿@model AccountingApp.UI.Models.EditChartofAccountVM
+
+@{
+    ViewBag.Title = "EditChartofAccount";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>EditChartofAccount</h2>
+
+@using (Html.BeginForm("EditChartofAccount", "ChartOfAccount", FormMethod.Post))
+{
+    <div class="form-group">
+        <label> Account </label>
+        @Html.TextBoxFor(m => m.EditAccount.AccountName, new {placeholder= Model.EditAccount.AccountName})
+        <label> Account Type </label>
+        @Html.DropDownListFor(m => m.EditAccount.AccountType, Model.AccountTypeSelection, new { placeholder = Model.EditAccount.AccountType})
+        <button> Submit </button>
+    </div>
+}

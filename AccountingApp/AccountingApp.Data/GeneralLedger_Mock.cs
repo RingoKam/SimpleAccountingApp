@@ -9,7 +9,7 @@ namespace AccountingApp.Data
 {
     public class GeneralLedger_Mock: IGeneralLedger
     {
-        private static List<Entry> theLedger;
+        private static List<Entry> theLedger = new List<Entry>();
 
         //read
         public List<Entry> LoadEntry(DateTime start, DateTime end)

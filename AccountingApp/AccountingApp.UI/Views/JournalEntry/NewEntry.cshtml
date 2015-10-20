@@ -1,4 +1,4 @@
-﻿@model AccountingApp.UI.Models.NewEntryView
+﻿@model AccountingApp.UI.Models.NewEntryVM
 
 @{
     ViewBag.Title = "NewEntry";
@@ -21,7 +21,7 @@
             <table></table>
             <div class="row">
                 @*<span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].AccountName, new { @placeholder = "AccountName" })</span>*@
-                <span> @Html.DropDownListFor(a=> a.newEntry.TransactionList[i].Account,Model.AccountSelect)</span>
+                <span> @Html.DropDownListFor(a=> a.newEntry.TransactionList[i].Account,Model.AccountNameSelect)</span>
                 <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].TransactionDescription, new { @placeholder = "Description" })</span>
                 <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].Account, new { @placeholder = "Account" })</span>
                 <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].Amount, new { @placeholder = "$--" })</span>

@@ -14,11 +14,12 @@ namespace AccountingApp.UI.Controllers
         // GET: JournalEntry
         public ActionResult NewEntry()
         {
-            var mger = new GLManager();
+            var gLmger = new GLManager();
+            var cOAmger = new AccountManager();
             var viewModel = new NewEntryVM();
-            //TODO: Insert AccountName to viewModel 
-            var accountTypeSelectList= Enum.GetValues(typeof (AccountType)).Cast<AccountType>().ToList();  
-            viewModel.AccountSelect = new SelectList(accountTypeSelectList);
+            var ChartofAccount = cOAmger.GetAllAccount();
+            var AccountNames = ChartofAccount.Attachment.Select(a => a.AccountName).ToList(); 
+            viewModel.AccountNameSelect = new SelectList(AccountNames);
             return View(viewModel);
         }
 
@@ -26,7 +27,7 @@ namespace AccountingApp.UI.Controllers
         public ActionResult NewEntry(NewEntryVM viewModel)
         {
             var mger = new GLManager();
-
+            mger.CreateJournal(viewModel.newEntry); 
             return View(); 
         }
 
