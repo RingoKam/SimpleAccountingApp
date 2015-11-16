@@ -18,17 +18,17 @@
         <br />
         for (int i = 0; i < @Model.TransactionNumber; i++)
         {
-            <table></table>
+            
             <div class="row">
                 @*<span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].AccountName, new { @placeholder = "AccountName" })</span>*@
-                <span> @Html.DropDownListFor(a=> a.newEntry.TransactionList[i].Account,Model.AccountNameSelect)</span>
-                <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].TransactionDescription, new { @placeholder = "Description" })</span>
+                <span> @Html.DropDownListFor(a => a.newEntry.TransactionList[i].Account, Model.AccountNameSelect)</span>
                 <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].Account, new { @placeholder = "Account" })</span>
+                <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].TransactionDescription, new { @placeholder = "Description" })</span>
                 <span> @Html.TextBoxFor(a => a.newEntry.TransactionList[i].Amount, new { @placeholder = "$--" })</span>
             </div>
             <br/>
         }
-        <hr />
+        <hr/>
         <button class="btn-group-sm">Submit</button>
     }
 </div>
