@@ -10,6 +10,7 @@ namespace SimpleAccountingApp.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
     }
